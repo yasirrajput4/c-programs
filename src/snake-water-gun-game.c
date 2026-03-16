@@ -6,11 +6,11 @@ int main()
 {
     char play_again;
 
+    // Seed random number generator once per run
+    srand((unsigned int)time(0));
+
     do
     {
-        // Seed random number generator once per run
-        srand(time(0));
-
         // Computer randomly selects 0 (Snake), 1 (Water), or 2 (Gun)
         int computer = rand() % 3;
         int player;
@@ -58,7 +58,11 @@ int main()
         printf("\nDo you want to play again? (y/n): ");
         while (getchar() != '\n')
             ; // Clear newline from buffer
-        scanf("%c", &play_again);
+        if (scanf("%c", &play_again) != 1)
+        {
+            printf("Error: Invalid input.\n");
+            return 1;
+        }
 
     } while (play_again == 'y' || play_again == 'Y');
 

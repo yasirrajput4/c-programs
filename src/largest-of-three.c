@@ -5,7 +5,11 @@ int main()
     int a, b, c;
 
     printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
+    if (scanf("%d %d %d", &a, &b, &c) != 3)
+    {
+        printf("Error: Invalid input. Please enter three integers.\n");
+        return 1;
+    }
 
     if (a >= b && a >= c)
     {

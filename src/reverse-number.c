@@ -5,7 +5,18 @@ int main()
     int num, reversed = 0, remainder;
 
     printf("Enter an integer: ");
-    scanf("%d", &num);
+    if (scanf("%d", &num) != 1)
+    {
+        printf("Error: Invalid input. Please enter an integer.\n");
+        return 1;
+    }
+
+    int sign = 1;
+    if (num < 0)
+    {
+        sign = -1;
+        num = -num;
+    }
 
     while (num != 0)
     {
@@ -14,7 +25,7 @@ int main()
         num /= 10;
     }
 
-    printf("Reversed number: %d\n", reversed);
+    printf("Reversed number: %d\n", sign * reversed);
 
     return 0;
 }

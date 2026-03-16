@@ -5,7 +5,11 @@ int main()
     int year;
 
     printf("Enter a year: ");
-    scanf("%d", &year);
+    if (scanf("%d", &year) != 1)
+    {
+        printf("Error: Invalid input. Please enter a year as an integer.\n");
+        return 1;
+    }
 
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
     {
