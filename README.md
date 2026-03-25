@@ -41,7 +41,7 @@ All source files are located in the `src/` directory:
 - **Cloning the repository**
 
 ```bash
-git clone <your-repo-url>.git
+git clone https://github.com/yasirrajput4/c-programming-practice.git
 cd c-programming-practice
 ```
 
