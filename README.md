@@ -9,11 +9,11 @@ c-programming-practice/
 ├── src/                    # All C source files
 │   ├── largest-of-three.c
 │   ├── leap-year-check.c
-│   ├── sum-digits.c
+│   ├── sum-of-digits.c
 │   ├── student-marks-calculator.c
 │   ├── snake-water-gun-game.c
 │   ├── reverse-number.c
-│   └── prime-number-checker.c
+│   └── prime-number-check.c
 ├── README.md
 ├── LICENSE
 ├── .gitignore
@@ -26,11 +26,11 @@ All source files are located in the `src/` directory:
 
 - **`src/largest-of-three.c`**: Reads three integers and prints the largest number.
 - **`src/leap-year-check.c`**: Checks whether a given year is a leap year using the standard leap year rules.
-- **`src/sum-digits.c`**: Calculates the sum of the digits of an integer.
+- **`src/sum-of-digits.c`**: Calculates the sum of the digits of an integer.
 - **`src/student-marks-calculator.c`**: Accepts roll number and marks for three subjects, validates input, calculates total and percentage, and prints pass/fail status.
 - **`src/snake-water-gun-game.c`**: Simple console game (similar to rock–paper–scissors) implemented using conditions and random choices.
 - **`src/reverse-number.c`**: Reverses the digits of an integer.
-- **`src/prime-number-checker.c`**: Determines whether a given integer is prime.
+- **`src/prime-number-check.c`**: Determines whether a given integer is prime.
 
 ### Getting Started
 
@@ -50,12 +50,12 @@ cd c-programming-practice
 Compile any program using your C compiler. For example, with `gcc`:
 
 ```bash
-gcc src/sum-digits.c -o sum-digits
-./sum-digits        # on Linux/macOS
-sum-digits.exe      # on Windows
+gcc src/sum-of-digits.c -o sum-of-digits
+./sum-of-digits        # on Linux/macOS
+sum-of-digits.exe      # on Windows
 ```
 
-Replace `src/sum-digits.c` and the output name with any of the other files listed above (for example `src/prime-number-checker.c`, `src/largest-of-three.c`, etc.).
+Replace `src/sum-of-digits.c` and the output name with any of the other files listed above (for example `src/prime-number-check.c`, `src/largest-of-three.c`, etc.).
 
 Most programs are interactive and will prompt you for input in the terminal (such as numbers, year, or game choices). Follow the on‑screen instructions and review the output to understand how each program behaves.
 
