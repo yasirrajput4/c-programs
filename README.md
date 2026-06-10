@@ -1,11 +1,11 @@
-## C Practice Programs
+## C Programs
 
 Collection of small, focused C programs written for practicing core C syntax and problem‑solving. Each file demonstrates a single concept such as conditionals, loops, input validation, and basic arithmetic.
 
 ### Project Structure
 
 ```
-c-programming-practice/
+c-programs/
 ├── src/                    # All C source files
 │   ├── largest-of-three.c
 │   ├── leap-year-check.c
@@ -41,8 +41,8 @@ All source files are located in the `src/` directory:
 - **Cloning the repository**
 
 ```bash
-git clone https://github.com/yasirrajput4/c-programming-practice.git
-cd c-programming-practice
+git clone https://github.com/yasirrajput4/c-programs.git
+cd c-programs
 ```
 
 ### Building and Running
@@ -64,3 +64,7 @@ Most programs are interactive and will prompt you for input in the terminal (suc
 - **Practice**: Strengthen understanding of basic C constructs.
 - **Reference**: Keep a clean, minimal set of sample programs to revisit later.
 - **Experimentation**: Safely modify and extend each program to explore new ideas (for example, adding more validation, menus, or additional features).
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

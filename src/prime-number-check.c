@@ -12,14 +12,13 @@ int main()
         return 1;
     }
 
-    // Numbers less than 2 are not prime
     if (n < 2)
     {
         isPrime = 0;
     }
     else
     {
-        for (i = 2; i <= n / i; i++)
+        for (i = 2; i < n; i++)
         {
             if (n % i == 0)
             {
