@@ -65,6 +65,8 @@ Most programs are interactive and will prompt you for input in the terminal (suc
 - **Reference**: Keep a clean, minimal set of sample programs to revisit later.
 - **Experimentation**: Safely modify and extend each program to explore new ideas (for example, adding more validation, menus, or additional features).
 
-### License
+## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
