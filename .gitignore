@@ -1,0 +1,13 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled Object Files
+*.o
+*.obj
+
+# Code Editor settings
+.vscode/
+.idea/
+.DS_Store
